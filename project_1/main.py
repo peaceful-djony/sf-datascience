@@ -28,6 +28,8 @@ def score_game(func) -> int:
     score = int(mean(count_ls))
     print(f"Ваш алгоритм угадывает число в среднем за: {score} попытки")
 
+    return score
+
 
 def game_core_v3(number: int = 1) -> int:
     """
