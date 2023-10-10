@@ -63,6 +63,6 @@ def game_core_v3(number: int = 1) -> int:
     return count
 
 
-result = score_game(game_core_v3)
-print(f'Run benchmarking for game_core_v3: {result}', end='')
-
+if __name__ == '__main__':
+    result = score_game(game_core_v3)
+    print(f'Run benchmarking for game_core_v3: {result}', end='')
